@@ -36,7 +36,7 @@
             <div class="inner-container">
                 <div class="top-left">
                     <ul class="contact-list clearfix">
-                        <li><a href="mailto:rinkeshpanwar1997@gmail.com"><i class="fa fa-envelope"></i>Mail us</a></li>
+                        <li><a href="mailto:info@shivsun.tech"><i class="fa fa-envelope"></i>info@shivsun.tech</a></li>
                         <li><i class="fa fa-map-marker-alt"></i>Independence Avenue , S.E. Washington DC</li>
                     </ul>
                 </div>
@@ -168,7 +168,7 @@
                         data-textalign="['top','top','top','top']"
                         data-frames='[{"delay":500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'>
                             <div class="btn-box">
-                                <a href="https://wa.me/15146123475" class="theme-btn btn-style-one"><span class="btn-title">Contac Us</span></a>
+                                <a href="https://wa.me/15146123475" class="theme-btn btn-style-one"><span class="btn-title">Contact Us</span></a>
                             </div>
                         </div>
                     </li>
@@ -615,7 +615,7 @@
                             <p id="thankyou">Your privacy matter us a lot. Message get auto deleted after 7 days.</p>
                         </div>
 
-                        <form action="https://send.pageclip.co/qWvJT8K1GXSUaDZLSwVUrWr6QLVyVqt6" class="pageclip-form" method="post">
+                        <form action="https://send.pageclip.co/qWvJT8K1GXSUaDZLSwVUrWr6QLVyVqt6" onsubmit="return submitForm()" class="pageclip-form" method="post">
                             <div class="row mid-spacing">
                                 <div class="form-group mb-0 col-lg-12">
                                     <div class="response"></div>
@@ -638,7 +638,7 @@
                                 </div>
                                 
                                 <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                    <input onclick="submitForm()" class="theme-btn btn-style-four" type="submit" id="submit" name="submit-form" value="Send Message" />
+                                    <input class="theme-btn btn-style-four" type="submit" id="submit" name="submit-form" value="Send Message" />
                                 </div>
                             </div>
                         </form>
@@ -710,6 +710,7 @@ function submitForm(){
     setTimeout(function (){
         id.innerText = "Your privacy matter us a lot. Message get auto deleted after 7 days.";
     },10000)
+    return true;
 }
 </script>
 </body>
